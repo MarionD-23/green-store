@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Green Store</title>
     <link rel="stylesheet" type="text/css" href=styles.css />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
 </head>
@@ -13,16 +13,16 @@
             <img src="./assets/images/logo.png" alt="logo natureemoi" class="logo">
             <nav class="menu">
                 <li>Accueil</li>
-                <li>Nos meilleurs ventes</li>
-                <li>Nos plantes</li>
+                <li><a href="#best-sells">Nos meilleurs ventes </a></li>
+                <li><a href="#plants">Nos plantes</a></li>
             </nav>
         </div>
         <div class="title">
-            <h1>Nature Emoi, meilleur que le chocolat.</h1>
-            <p>Scroll</p>
+            <h1>Green Store, voyez la vie en vert.</h1>
+            <p><a href="#services">Scroll</a> </p>
         </div>
     </header>
-    <div class="services">
+    <div id="services">
         <ul class="services-list">
             <li>
                 <i class="fas fa-store delivery-icon"></i>
@@ -38,8 +38,8 @@
             </li>
         </ul>
     </div>
-    <div class="best-sells">
-        <h1>Nos meilleures ventes</h1>
+    <section class="best-sells">
+        <h1 id="best-sells">Nos meilleures ventes</h1>
      
         <div class="product-list">
             <a class="product product1 no-grid">
@@ -67,10 +67,10 @@
                 </div>
             </a>   
         </div>
-    </div>
+    </section>
 
-    <div class="plants">
-        <h1>Nos plantes</h1>
+    <section class="plants">
+        <h1 id="plants">Nos plantes</h1>
         <div class="plant-list">
             <a class="plant plant1">
                 <div class="informations">
@@ -109,7 +109,7 @@
                 </div>
             </a>   
         </div>
-    </div>
+    </section>
     <footer>
         <p>2020 - Nature Emoi</p>
         <p>&copy; Conditions générales de ventes</p>
