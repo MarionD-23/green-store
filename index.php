@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Store</title>
-    <link rel="stylesheet" type="text/css" href=styles.css />
+    <title>NatureEmoi</title>
+    <link rel="stylesheet" type="text/css" href=style.css />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
 </head>
 <body>
@@ -13,16 +13,15 @@
             <img src="./assets/images/logo.png" alt="logo natureemoi" class="logo">
             <nav class="menu">
                 <li>Accueil</li>
-                <li><a href="#best-sells">Nos meilleurs ventes </a></li>
-                <li><a href="#plants">Nos plantes</a></li>
+                <li>Nos meilleurs ventes</li>
+                <li>Nos plantes</li>
             </nav>
         </div>
         <div class="title">
-            <h1>Green Store, voyez la vie en vert.</h1>
-            <p><a href="#services">Scroll</a> </p>
+            <h1>Nature Emoi, voyez la vie en vert.</h1>
         </div>
     </header>
-    <div id="services">
+    <div>
         <ul class="services-list">
             <li>
                 <i class="fas fa-store delivery-icon"></i>
@@ -38,9 +37,8 @@
             </li>
         </ul>
     </div>
-    <section class="best-sells">
-        <h1 id="best-sells">Nos meilleures ventes</h1>
-     
+    <div class="best-sells">
+        <h1>Nos meilleures ventes</h1>
         <div class="product-list">
             <a class="product product1 no-grid">
                 <div class="informations">
@@ -67,7 +65,7 @@
                 </div>
             </a>   
         </div>
-    </section>
+    </div>
 
     <section class="plants">
         <h1 id="plants">Nos plantes</h1>

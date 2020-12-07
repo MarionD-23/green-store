@@ -11,6 +11,11 @@ html, body {
     list-style: none;
 }
 
+.menu a{
+    text-decoration: none;
+    color: #ffff;
+}
+
 .menu-box {
     display: flex;
     flex-direction: row;
@@ -76,7 +81,7 @@ h1 {
     font-size: 3em;
 }
 
-#best-sells {
+.best-sells {
     margin: 5em
 }
 
